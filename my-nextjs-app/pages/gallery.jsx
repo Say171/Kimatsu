@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/img.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Shibe from '../components/Shibe';
 
 export default function App() {
   const images = [
@@ -36,6 +39,14 @@ export default function App() {
 
   return (
     <>
+      <div id="home">
+        <Header />
+        <section>
+          {/* Shibe */}
+          <Shibe count={1} urls={true} httpsUrls={true} imageSize="500px" />
+        </section>
+      </div>
+
       <div id="image-gallery-app">
         <h1>Image gallery</h1>
       </div>
@@ -66,7 +77,7 @@ export default function App() {
         ))}
 
         <p>※著作権法第35条の解釈のもとの作成</p>
-        <Link href="/">戻る</Link>
+        <Footer />
       </div>
     </>
   );
