@@ -5,6 +5,7 @@ import styles from '../styles/img.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Shibe from '../components/Shibe';
+import { homedir } from 'os';
 
 export default function App() {
   const images = [
@@ -79,7 +80,7 @@ export default function App() {
         <p>※著作権法第35条の解釈のもとの作成</p>
       </div>
 
-      <div>
+      <div id="home">
         <Footer />
       </div>
     </>
