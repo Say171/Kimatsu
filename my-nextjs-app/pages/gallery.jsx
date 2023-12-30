@@ -77,6 +77,9 @@ export default function App() {
         ))}
 
         <p>※著作権法第35条の解釈のもとの作成</p>
+      </div>
+
+      <div>
         <Footer />
       </div>
     </>
