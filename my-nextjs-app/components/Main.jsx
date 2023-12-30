@@ -13,7 +13,7 @@ const Main = () => {
       </section>
       <section className={styles.mainSection}>
         <h2>歓迎するよ。</h2>
-        <p>てすと てすと てすと てすと てすと てすと</p>
+        <p>授業で学んだあれやこれ、気になったものを作成・追加していくサイトだよ。</p>
       </section>
       <section>
         {/* QR Code Generator */}

@@ -8,7 +8,7 @@ const Nav = () => {
     <nav id="g_navi">
       <ul>
         <li><Link href="/">Home</Link></li>
-        <li><Link href="/about">About</Link></li>
+        <li><Link href="/memo">Memo</Link></li>
         <li><Link href="/gallery">Gallery</Link></li>
       </ul>
     </nav>
